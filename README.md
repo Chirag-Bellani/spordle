@@ -1,97 +1,99 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🏟️ Box Booking App
 
-# Getting Started
+A modern sports facility booking platform that allows users to discover nearby sports boxes, book available slots, and manage their reservations seamlessly.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## 🚀 Features
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+### 🔐 OTP Authentication
+- Secure login using mobile number
+- One-time password verification
+- Session management for authenticated users
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### 📍 Location-Based Box Suggestions
+- Detects user location
+- Suggests nearby sports boxes
+- Distance-based sorting for better discovery
 
-```sh
-# Using npm
-npm start
+### 🗓️ Slot Selection
+- Choose preferred date
+- Select available time slots
+- Real-time availability updates
+- Prevents double booking
 
-# OR using Yarn
-yarn start
-```
+### ⭐ Slot Bookmarking
+- Bookmark favorite boxes
+- Save preferred time slots
+- Quick access to frequently booked facilities
 
-## Step 2: Build and run your app
+### 📲 User-Friendly Interface
+- Clean and minimal UI
+- Smooth navigation
+- Optimized for performance
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+## 🛠️ Tech Stack
 
-```sh
-# Using npm
-npm run android
+**Frontend**
+- React Native
+- TypeScript / JavaScript
 
-# OR using Yarn
-yarn android
-```
+**Backend**
+- REST APIs
+- Node.js (if used)
 
-### iOS
+**Authentication**
+- OTP-based verification
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+**Database**
+- MongoDB / Firebase (depending on your implementation)
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+**Other Tools**
+- Git & GitHub
 
-```sh
-bundle install
-```
+---
 
-Then, and every time you update your native dependencies, run:
+## 📊 How It Works
 
-```sh
-bundle exec pod install
-```
+1. User logs in using mobile number.
+2. OTP verification completes authentication.
+3. App fetches nearby sports boxes using location.
+4. User selects preferred box.
+5. User chooses date and available time slot.
+6. Slot gets reserved.
+7. User can bookmark for quick future booking.
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+---
 
-```sh
-# Using npm
-npm run ios
+## 🎯 Use Case
 
-# OR using Yarn
-yarn ios
-```
+This application is ideal for:
+- Sports enthusiasts
+- Turf and court owners
+- Local sports communities
+- Event organizers
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+---
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+## 🔮 Future Improvements
 
-## Step 3: Modify your app
+- Online payment integration
+- Push notifications for reminders
+- Admin dashboard for box owners
+- Real-time slot updates with WebSockets
+- Ratings and reviews system
 
-Now that you have successfully run the app, let's make changes!
+---
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+## 📸 Screenshots
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+(Add your app screenshots here)
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+---
 
-## Congratulations! :tada:
+## 👨‍💻 Author
 
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Chirag Bellani  
+Junior React Native Developer
